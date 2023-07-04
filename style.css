@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 70%;
+  text-align: center;
+  padding: 40px 0;
+}
+.student__info {
+  display: flex;
+  margin-bottom: 50px;
+}
+.info__photo img {
+  width: 300px;
+  height: 100%;
+}
+.info__bio {
+  margin-left: 50px;
+  text-align: left;
+}
+.bio__text {
+  display: block;
+  padding: 5px 0;
+  opacity: 0.6;
+  font-size: 18px;
+}
+.bio__text-desc {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.goal {
+  padding: 30px 60px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+.goal__list {
+  text-align: left;
+}
+.goal__item {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.lesson__time {
+  padding: 30px 40px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+.time__grafik {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+  font-size: 16px;
+}
+.time__day {
+  text-align: left;
+  padding: 5px;
+}
+.time__tiem {
+  text-align: center;
+  padding-left: 100px;
+}
+.my__courses {
+  padding: 30px 60px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+.courses__table {
+  display: flex;
+  justify-content: center;
+}
+.courses__table-head {
+  padding: 10px 60px;
+  font-size: 16px;
+}
+
+hr {
+  height: 1px;
+  width: 50%;
+  background-color: black;
+  margin: 0 auto;
+}
+.courses__table-name {
+  text-decoration: underline;
+}
+.courses__table td {
+  padding: 10px 60px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.contact {
+  padding: 30px 60px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+.contact_box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact__block {
+  padding: 15px;
+}
+
+.contact__img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.contact__desc {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.8;
+  color: black;
+}
